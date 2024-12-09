@@ -17,7 +17,7 @@ namespace JSON_Serialization_and_Deserialization_in_C_
             // Serialize the object to JSON
             string json = SerializeObjectToJson(fruit);
             // Display the serialized JSON
-            Console.WriteLine("Serialized JSON:");
+            Console.WriteLine("Serialized JSON Output:");
             Console.WriteLine(json);
             // Deserialize the JSON to an object
             Fruit deserializedPerson = DeserializeJsonToObject(json);
